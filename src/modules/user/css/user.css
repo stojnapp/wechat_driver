@@ -1,0 +1,171 @@
+/* 
+    name@我的手机号
+    time@2019/04/02
+    author@344822559@qq.com 
+*/
+.user_main{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.userinfo{
+    margin-top: -2.6rem;
+    text-align: center;
+    padding: 0px 0.64rem;
+}
+.userinfo img{
+    display: block;
+    margin: 0 auto;
+    max-width: 2.6rem;
+}
+.userinfo .warning_text{
+    color: #666;
+    font-size: 0.26rem;
+    line-height: 0.36rem;
+    text-align: left;
+    padding-bottom: 1.12rem
+}
+.userinfo button{
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    background: #FE7621;
+    height: 1rem;
+    border-radius: 0.08rem;
+    color: #ffffff;
+    font-size: 0.32rem;
+}
+
+.userinfo button.close{
+    border: 0.01rem #DDDDDD solid;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    height: 1rem;
+    border-radius: 0.08rem;
+    color: #999999;
+    font-size: 0.32rem;
+}
+
+/* for binding.vue */
+.binding{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 0.4rem;
+}
+.sendPhone{
+    margin-top: 1rem;
+    position: relative;
+    padding-right: 0.4rem;
+}
+.sendPhone p{
+    position: absolute;
+    z-index: 6;
+    left: 0px;
+    top: 0rem;
+}
+.sendPhone .close{
+    position: absolute;
+    z-index: 6;
+    right: 0px;
+    top: 0.41rem;
+    width: 0.48rem;
+    height: 0.48rem;
+    background: #999999;
+    border-radius: 50%;
+}
+.sendPhone .close img{
+    max-width: 100%;
+}
+.sendPhone input{
+    z-index: 9;
+    display: block;
+    box-sizing: border-box;
+    font-size: 0.34rem;
+    color: #333;
+    width: 100%;
+    padding: 0.48rem 0px;
+    border: none;
+}
+.sendPhone input::placeholder{
+    color: #999999;
+}
+.getcode{
+    padding-top: 0.64rem;
+    text-align: right;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.getcode .codeInfo{
+    flex: 1;
+    position: relative;
+    padding-right: 1.2rem;
+    height: 0.68rem;
+    padding-top: 0.3rem;
+    background: url('/src/assets/img/plus@3x.png')
+}
+.getcode .codeInfo .warning_text{
+    position: absolute;
+    left: 0px;
+    font-size: 0.24rem;
+    color: #999999;
+    top: -0.1rem;
+}
+.getcode .codeInfo .code_box{
+    display: flex;
+    width: 100%;
+    border: none;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 0.68rem;
+}
+.getcode .codeInfo .code_box span{
+    flex: 1;
+    height: 0.68rem;
+    line-height: 0.68rem;
+    margin-right: 0.24rem;
+    font-size: 0.34rem;
+    color: #333;
+    border-bottom: 0.03rem solid #E8E8E8;
+    text-align: center;
+    vertical-align: middle;
+}
+.getcode .codeInfo .code_box span:last-child{
+    margin-right: 0rem; 
+}
+.getcode .codeInfo .code_box span.active{
+    border-bottom: 0.03rem solid #333;
+}
+.getcode button{
+    background: #DDDDDD;
+    display: inline-block;
+    border: none;
+    height: 0.98rem;
+    border-radius: 0.49rem;
+    font-size: 0.34rem;
+    color: #999999;
+    padding: 0px 0.4rem;
+}
+.getcode button.active{
+    background: #FE7621; 
+    color: #fff;
+}
+.submit_btn{
+    width: 100%;
+    background: #DDDDDD;
+    height:1rem;
+    border: none;
+    font-size: 0.34rem;
+    color: #999999;
+    border-radius:0.5rem;
+    margin-top: 0.32rem
+}
+.submit_btn_acitive{
+    background: #FE7621;
+    color:white;
+}

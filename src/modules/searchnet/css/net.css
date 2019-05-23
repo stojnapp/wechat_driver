@@ -1,0 +1,21 @@
+/* 
+    name@网点查询
+    time@2019/03/28
+    author@344822559@qq.com 
+*/
+.search_list{
+    clear: both;
+}
+.search_cell{
+    padding: 0.4rem 0.32rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 0.28rem;
+    color: #333333;
+}
+.search_cell img{
+    max-width: 0.52rem;
+}

@@ -1,0 +1,67 @@
+.search_header{
+    height: 1.2rem;
+    width: 100%;
+    box-sizing: border-box;
+    background:white;
+    padding: 0.16rem 0.32rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center
+}
+.search_header .input_box{
+    flex: 1;
+    height: 100%;
+    background-color: #F5F5F5;
+    padding: 0px 0.24rem;
+    border-radius: 0.16rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.search_header .input_box input{
+    flex: 1;
+    min-width: 1rem;
+    padding: 0px 0.32rem;
+    padding-left: 0.6rem;
+    height: 100%;
+    font-size: 0.3rem;
+    color: #333333;
+    background: transparent;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-user-select: auto!important;
+    -khtml-user-select: auto!important;
+    -moz-user-select: auto!important;
+    -ms-user-select: auto!important;
+    -o-user-select: auto!important;
+    user-select: auto!important;
+    background: url('../img/search@3x.png') no-repeat 0.01rem center;
+    background-size: auto 50%;
+}
+.search_header .input_box .clear_btn{
+    width: 0.32rem;
+    height: 0.32rem;
+    background: #999999;
+    border-radius: 50%
+}
+.search_header .input_box .clear_btn img{
+    max-width: 100%;
+}
+.search_header .input_box input::placeholder{
+    color: #999999;
+}
+.search_header button{
+    padding: 0px 0.32rem;
+    height: 100%;
+    padding-right: 0px;
+    border: none;
+    color: #FE7621;
+    background: transparent;
+    font-size: 0.3rem;
+    outline: none;
+}

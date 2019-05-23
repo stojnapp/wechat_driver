@@ -1,0 +1,112 @@
+/* 
+    name@我的运输
+    time@2019/03/27
+    author@344822559@qq.com 
+*/
+.task_box_carr{
+    display: block;
+    margin: 0.16rem;
+    /* margin-top: 0px; */
+    box-shadow:0px 0px 0.16rem 0px rgba(0,0,0,0.07);
+    border-radius:0rem;
+    box-sizing: border-box;
+    padding: 0.32rem;
+}
+.task_box_carr dt{
+    position: relative;
+}
+.task_box_carr dt.title{
+    padding-top: 0.08rem;
+    padding-bottom: 0.32rem;
+    font-size: 0.36rem;
+    line-height: 0.36rem;
+    text-align: left;
+    color: #333333;
+}
+.task_box_carr dt.title span{
+    padding-left: 0.1rem;
+}
+.task_box_carr .task_cell{
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+    color: #666;
+    margin-bottom: 0.32rem;
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+}
+.task_box_carr .task_cell img{
+    height: 0.28rem;
+    margin-right: 0.16rem;
+}
+.task_box_carr .task_cell cite{
+    white-space: nowrap;
+}
+.task_box_carr .task_cell span{
+    padding-left: 0.1rem;
+    text-align: left;
+    
+    /* text-overflow: ellipsis; */
+}
+
+.task_box_carr dd{
+    height: 0.24rem;
+    border: none;
+    text-align: center;
+}
+.task_box_carr dd img{
+    display: block;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.cell_table{
+    display: block;
+    border: 0.01rem solid #E5E5E5;
+    border-right: none;
+    border-bottom: 0px;
+}
+.cell_table thead{
+    display: table;
+    width: 100%;
+}
+.cell_table tbody{
+    display: table;
+    width: 100%;
+}
+.cell_table th,.cell_table td{
+    border: 0.01rem solid #E5E5E5;
+    border-top: none;
+    border-left: none;
+    text-align: center;
+    font-size: 0.24rem;
+    padding: 0.2rem 0;
+    color: #666;
+    vertical-align:middle!important
+}
+
+.more{
+    display: block;
+    padding-bottom: 0.2rem;
+}
+
+.btn_add_mark{
+    position: absolute;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: #FE7621;
+    box-shadow:0px 0.08rem 0.16rem 0px rgba(254,118,33,0.3);
+    border-radius: 50%;
+    right: 0.64rem;
+    bottom: 0.8rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.btn_add_mark img{
+    max-width: 50%;
+}

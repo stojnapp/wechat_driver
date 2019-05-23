@@ -1,0 +1,44 @@
+.task_box{
+    display: block;
+    margin: 0.16rem;
+    box-shadow:0px 0px 0.16rem 0px rgba(0,0,0,0.07);
+    border-radius:0.24rem;
+    box-sizing: border-box;
+    padding: 0.32rem;
+}
+.task_box dt{
+    position: relative;
+}
+.task_box dt .task_cell{
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+    margin-bottom: 0.32rem;
+}
+.task_box dt .task_cell p{
+    width: 1.8rem;
+    color: #999999;
+}
+.task_box dt .task_cell div{
+    flex: 1;
+    box-sizing: border-box;
+    padding-left: 0.32rem;
+    color: #333333;
+}
+.task_box dd{
+    text-align: right;
+    color: #FE7621;
+    font-size:0.34rem;
+    
+}
+.task_box dd .do_btn_box{
+    display: inline-block;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    border:0.02rem solid #FE7621;
+    border-radius: 0.24rem;
+    padding: 0px 0.32rem;
+}

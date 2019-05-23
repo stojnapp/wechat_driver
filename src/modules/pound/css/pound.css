@@ -1,0 +1,128 @@
+/* 
+    name@磅单记录
+    time@2019/04/01
+    author@344822559@qq.com 
+*/
+
+.header_pound{
+    height: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    background:white;
+    padding: 0.16rem 0.32rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center
+}
+.menu_box{
+    flex: 1;
+    font-size: 0.32rem;
+    text-align: center
+}
+.menu_box span{
+    display: inline-block;
+    line-height: 0.96rem;
+}
+.menu_box span.active{
+    border-bottom: 0.04rem solid #FE7621;
+}
+
+
+/* for home.vue */
+.markshow{
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 0.2rem;
+}
+.markshow dl{
+    width: 100%;
+    box-sizing: border-box;
+    background: #ffffff;
+    padding: 0.32rem;
+    padding-bottom: 0px;
+    margin-top: 0.2rem;
+}
+.markshow dl:last-child{
+    margin-bottom: 0px
+}
+.markshow dl dt{
+    border-left: 0.04rem solid #FE7621;
+    padding-left: 0.16rem;
+    font-size: 0.3rem;
+    line-height: 0.34rem;
+    color: #333;
+    margin-bottom: 0.32rem;
+}
+.markshow dl dd{
+    display:  flex;
+    width: 100%;
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+    box-sizing: border-box;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 0.32rem;
+    color: #666666;
+}
+.markshow dl dd span{
+    width: 1.4rem;
+    color: #999999;
+}
+.markshow dl dd div{
+    padding-left: 0.32rem;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+
+.markhistory{
+    width: 100%;
+    padding-bottom: 0.2rem;
+    box-sizing: border-box;
+}
+.markhistory dl{
+    margin: 0.2rem;
+    margin-bottom: 0px;
+    border-radius: 0.24rem;
+    background: #ffffff;
+    padding: 0.32rem;
+}
+.markhistory dl dt{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center
+}
+.markhistory dl dt .info{
+    flex: 1;
+}
+.markhistory dl dt .info .cell_info{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.3rem;
+    color: #666666;
+    margin-top: 0.16rem
+}
+.markhistory dl dt .info .cell_info div{
+    flex: 1
+}
+.markhistory dl dt .info_more{
+    padding: 0.28rem 0.1rem 0.28rem 0.4rem;
+    font-size: 0.32rem;
+    color: #4A81F6;
+    border-left: 0.01rem solid #F6F6F6;
+}
+.markhistory dl dd{
+    margin-top: 0.40rem;
+    padding-top: 0.12rem;
+}
+.markhistory dl dd p{
+    padding-top: 0.28rem;
+    text-align: left;
+    font-size: 0.26rem;
+    color: #999999;
+}

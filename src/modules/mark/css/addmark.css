@@ -1,0 +1,265 @@
+/* 
+    name@新增备案
+    time@2019/03/27
+    author@344822559@qq.com 
+*/
+
+.addmark_title{
+    padding: 0.24rem 0.32rem;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+.mark_cell{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.24rem 0px;
+}
+.addmark_title div{
+    flex: 1;
+    text-align: right;
+}
+.main_box{
+    display: flex;
+    width: 100%;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.full_box{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.48rem 0.32rem;
+}
+.full_box textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding:0.32rem;
+    min-height: 1.6rem;
+    border: none;
+    background: #f5f5f5;
+}
+.upload_box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 1.12rem;
+}
+.upload_box dl{
+    width: 1.44rem;
+    height: 1.44rem;
+    border: #D8D8DB 0.01rem dotted;
+    margin-right: 0.3rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0.3rem;
+}
+.upload_box dl img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.upload_box dl .close{
+    position: absolute;
+    width: 0.4rem;
+    height: 0.4rem;
+    right: -0.2rem;
+    top: -0.2rem;
+    background: #999999;
+    border-radius: 0.2rem;
+}
+
+.upload_box dl:last-child{
+    margin-right: 0px;
+}
+.upload_box dl.upload_btn{
+    width: 1.44rem;
+    height: 1.44rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.upload_box dl.upload_btn dt{
+    width: 100%;
+    height: 0.44rem;
+    background: url('../../../assets/img/photo-camera@3x.png') no-repeat center;
+    background-size: auto 100%;
+    margin-bottom: 0.2rem;
+    z-index: 1;
+}
+.upload_box dl.upload_btn dd{
+    font-size: 0.24rem;
+    color: #999999;
+    z-index: 1;
+}
+
+.footer_btn_box{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 0.4rem;
+    padding-bottom: 1.1rem;
+}
+
+.btn_submit{
+    width: 100%;
+    height: 1rem;
+    font-size: 0.34rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+.submit_btn_active{
+    background:rgba(254,118,33,1);
+    color: #ffffff;
+    box-shadow:0px 0.08ren 0.24rem 0.04rem rgba(0,0,0,0.08);
+}
+.submit_btn_disable{
+    background: #DDDDDD;
+    color: #999999;
+}
+
+
+
+/* for marklist.vue */
+.btn_add_mark{
+    position: absolute;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: #FE7621;
+    box-shadow:0px 0.08rem 0.16rem 0px rgba(254,118,33,0.3);
+    border-radius: 50%;
+    right: 0.64rem;
+    bottom: 0.8rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.btn_add_mark img{
+    max-width: 50%;
+}
+
+.marklist_box{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+.marklist_box dl{
+    padding: 0.32rem;
+    background: #ffffff;
+    margin-top: 0.32rem;
+    border-radius: 0.24rem;
+    position: relative;
+    overflow: hidden;
+}
+.marklist_box dl dt{
+    font-size: 0.36rem;
+    line-height: 0.36rem;
+    padding-bottom: 0.08rem;
+    color: #999999
+}
+.marklist_box dl .tag_box{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 0.32rem;
+    color: #ffffff;
+    border-bottom-left-radius:0.36rem;
+    padding: 0.16rem 0.32rem;
+    background: -moz-linear-gradient(right, #45DF56, #1DCB30);
+	background: -webkit-linear-gradient(right, #45DF56, #1DCB30);
+	background: -webkit-gradient(linear,right,from(#45DF56),to(#1DCB30));
+	background: -webkit-linear-gradient(right, #45DF56, #1DCB30);
+	background: -o-linear-gradient(right, #45DF56, #1DCB30);
+	background: linear-gradient(right, #45DF56, #1DCB30);
+	background-color: #1DCB30;
+}
+.marklist_box dl dd{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 0.32rem;
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+}
+.marklist_box dl dd span{
+    width: 1.5rem;
+    
+    color: #666666;
+}
+.marklist_box dl dd div{
+    flex: 1;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.img_list{
+    margin-left: -0.32rem;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left
+}
+.img_list img{
+    display: inline-block;
+    max-width: 1.14rem;
+    max-height: 1.14rem;
+    margin-right: 0.2rem;
+}
+
+/* for markshow.vue */
+.markshow{
+    width: 100%;
+}
+.markshow dl{
+    width: 100%;
+    box-sizing: border-box;
+    background: #ffffff;
+    padding: 0.32rem;
+    padding-bottom: 0px;
+    margin-bottom: 0.2rem;
+}
+.markshow dl:last-child{
+    margin-bottom: 0px
+}
+.markshow dl dt{
+    border-left: 0.04rem solid #FE7621;
+    padding-left: 0.16rem;
+    font-size: 0.3rem;
+    line-height: 0.34rem;
+    color: #333;
+    margin-bottom: 0.32rem;
+}
+.markshow dl dd{
+    display:  flex;
+    width: 100%;
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+    box-sizing: border-box;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 0.32rem;
+    color: #666666;
+}
+.markshow dl dd span{
+    width: 1.4rem;
+    color: #999999;
+}
+.markshow dl dd div{
+    padding-left: 0.32rem;
+    box-sizing: border-box;
+    flex: 1;
+}

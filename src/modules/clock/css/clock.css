@@ -1,0 +1,89 @@
+/* 
+    name@网点查询
+    time@2019/03/28
+    author@344822559@qq.com 
+*/
+
+.search_list{
+    clear: both;
+    padding: 0.16rem;
+    padding-bottom: 0.32rem;
+}
+.search_list dl{
+    margin-top: 0.16rem;
+    padding: 0.32rem;
+    background: #ffffff;
+    border-radius: 0.24rem;
+    position: relative;
+    overflow: hidden;
+}
+.search_list dl .tags{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 0.32rem;
+    padding: 0.2rem 0.32rem;
+    color: #ffffff;
+    border-bottom-left-radius:0.36rem;
+}
+.search_list dl .send{
+    background: -moz-linear-gradient(right, #FF9526, #FE7621);
+	background: -webkit-linear-gradient(right, #FF9526, #FE7621);
+	background: -webkit-gradient(linear,right,from(#FF9526),to(#FE7621));
+	background: -webkit-linear-gradient(right, #FF9526, #FE7621);
+	background: -o-linear-gradient(right, #FF9526, #FE7621);
+	background: linear-gradient(right, #FF9526, #FE7621);
+	background-color: #FE7621;
+}
+.search_list dl .get{
+    background: -moz-linear-gradient(right, #599DFF, #428FFF);
+	background: -webkit-linear-gradient(right, #599DFF, #428FFF);
+	background: -webkit-gradient(linear,right,from(#599DFF),to(#428FFF));
+	background: -webkit-linear-gradient(right, #599DFF, #428FFF);
+	background: -o-linear-gradient(right, #599DFF, #428FFF);
+	background: linear-gradient(right, #599DFF, #428FFF);
+	background-color: #428FFF;
+}
+.search_list dl dt{
+    display: flex;
+    margin: 0.12rem 0px;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.36rem;
+    color: #333333;
+}
+.search_list dl dt span{
+    padding-right: 0.24rem;
+}
+.search_list dl dt div{
+    flex: 1;
+    font-weight: 700;
+}
+.search_list dl dd{
+    margin-top: 0.24rem;
+    padding-top: 0.24rem;
+}
+.search_list dl dd p{
+    padding: 0.14rem 0px;
+    color: #999;
+    font-size: 0.26rem
+}
+
+.btn_add_mark{
+    position: absolute;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: #FE7621;
+    box-shadow:0px 0.08rem 0.16rem 0px rgba(254,118,33,0.3);
+    border-radius: 50%;
+    right: 0.64rem;
+    bottom: 0.8rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.btn_add_mark img{
+    max-width: 50%;
+}
