@@ -148,7 +148,9 @@ p{
 .pb_96{
 	padding-bottom: 0.96rem;
 }
-
+.text_000{
+	color: #000000;
+}
 .text_333{
 	color: #333333;
 }
@@ -164,7 +166,9 @@ p{
 .text_999{
 	color: #999999;
 }
-
+.f_w{
+	font-weight: 700;
+}
 .f_24{
 	font-size: 0.24rem;
 }
@@ -263,5 +267,9 @@ p{
     -webkit-transform: scaleY(.5);
     transform:scaleY(.5);
 }
-
+/* 全屏显示pop */
+.fullscreenBox{
+	width: 100%;
+	height: 100%;
+}
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}.cl,.clearfix{zoom:1}

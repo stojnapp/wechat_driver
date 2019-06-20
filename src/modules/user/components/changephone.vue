@@ -70,7 +70,7 @@ export default {
       checkedActive(){
         var back=false;
         this.phoneTitle=this.pagephone.length?true:false;
-        if(!(/^1(3|4|5|7|8|9)\d{9}$/.test(this.pagephone))){ 
+        if(!(/^1(3|4|5|6|7|8|9)\d{9}$/.test(this.pagephone))){ 
             this.allowButton=true;
             this.isresend=false;
             if(this.timer){

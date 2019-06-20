@@ -13,7 +13,7 @@
                             <div>{{item.shipMentNo}}</div>
                         </div>
                         <div class="task_cell">
-                            <p>运输线路</p>
+                            <p>任务名称</p>
                             <div>{{item.shipMentLineName?item.shipMentLineName:'暂无数据信息'}}</div>
                         </div>
                         <div class="task_cell">

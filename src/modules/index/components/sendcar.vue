@@ -19,7 +19,7 @@
                         </div>
                         <div class="cell_info">
                             <img src="~assets/img/car_path@3x.png" alt="">
-                            <div>运输线路：{{overview.shipMentLineName}}</div>
+                            <div>任务名称：{{overview.shipMentLineName}}</div>
                         </div>
                         <div class="cell_info">
                             <img src="~assets/img/car_number@3x.png" alt="">

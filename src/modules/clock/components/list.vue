@@ -23,8 +23,8 @@
                 </dt>
                 <dd class="bt-t">
                     <p>运输任务单：{{item.taskId}}</p>
-                    <p>运输线路：{{item.lineName}}</p>
-                    <p>车牌号：{{item.vehicleNo}}1</p>
+                    <p>任务名称：{{item.lineName}}</p>
+                    <p>车牌号：{{item.vehicleNo}}</p>
                 </dd>
             </dl>
            </van-list>
